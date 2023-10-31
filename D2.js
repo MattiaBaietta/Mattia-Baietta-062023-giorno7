@@ -178,13 +178,12 @@ if(numdivisibiledue % 2 == 0){
 
 
 
-/* const me = {
+ const me = {
   name: 'John',
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
-  city: 'Toronto',
-} */
-
+} 
+  me.city ="Toronto"
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */

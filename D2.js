@@ -206,18 +206,9 @@ if(numdivisibiledue % 2 == 0){
 */
 
 
-/* const arrayprova=[]
-arrayprova[0]=1
-arrayprova[1]=2
-arrayprova[2]=3
-arrayprova[3]=4
-arrayprova[4]=5
-arrayprova[5]=6
-arrayprova[6]=5
-arrayprova[7]=6
-arrayprova[8]=7
-arrayprova[9]=8
-console.log(arrayprova[1]) */
+ const arrayprova=[]
+arrayprova.push(1,2,3,4,5,6,7,8,9,10)
+console.log(arrayprova) 
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
@@ -235,7 +226,7 @@ const profilo = {
 
 let ricerca = prompt("Inserire il campo da cercare")
 if(profilo.hasOwnProperty(ricerca)==true){
-  prompt("Il valore per " + ricerca + " al momento è " + profilo.ricerca)
+  prompt("Il valore per " + ricerca + " al momento è " + profilo.getElementsByTagName(ricerca))
   profilo.setAttribute(ricerca)=prompt("In cosa vuoi sostituirlo?")
 }
 else{
